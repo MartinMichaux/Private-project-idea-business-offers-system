@@ -1,0 +1,138 @@
+ 
+
+<html> 
+
+    <style> 
+    
+        /*set border to the form*/       
+    
+        form { 
+    
+            border: 3px solid #f44336; 
+            
+            background-color : gray;
+    
+        } 
+    
+        /*assign full width inputs*/ 
+          
+    
+        input[type=text], 
+    
+        input[type=password] { 
+    
+            width: 100%; 
+    
+            padding: 12px 20px; 
+    
+            margin: 8px 0; 
+    
+            display: inline-block; 
+    
+            border: 1px solid #ccc; 
+    
+            box-sizing: border-box; 
+    
+        } 
+    
+        /*set a style for the buttons*/       
+    
+        button { 
+    
+            background-color: #f44336; 
+    
+            color: black; 
+    
+            padding: 14px 20px; 
+    
+            margin: 8px 0; 
+    
+            border: none; 
+    
+            cursor: pointer; 
+    
+            width: 100%; 
+    
+        } 
+    
+        /*centre the display image inside the container*/ 
+          
+    
+        .imgcontainer { 
+    
+            text-align: center; 
+    
+            margin: 24px 0 12px 0; 
+    
+        } 
+    
+        /*set image properties*/ 
+          
+    
+        img.avatar { 
+    
+            width: 40%; 
+    
+            border-radius: 50%; 
+    
+        } 
+    
+        /*set padding to the container*/       
+    
+        .container { 
+    
+            padding: 16px; 
+    
+        }   
+    
+    </style> 
+    
+      
+    
+    <body> 
+    
+      <!--Step 1 : Adding HTML-->
+    
+        <form> 
+    
+            <div class="imgcontainer"> 
+    
+                <a href = "loginPage.html">
+    
+                <img src= "assets/iconNoir.png" alt="Avatar" class="avatar"> 
+            </a>
+    
+            </div> 
+    
+      
+    
+            <div class="container1"> 
+    
+                <label><b>Heure de l'offre </b></label> 
+    
+                <input type="time" name="time" required>  
+
+                <p></p>
+      
+    
+                <label><b>Nom de l'offre</b></label> 
+    
+                <input type="text" placeholder="Entrer le nom de l'offre" name="name" required>   
+
+                <label><b>Prix de l'offre</b></label> 
+    
+                <input type="text" placeholder="Entrer le prix de l'offre" name="price" required> 
+    
+                <button type="submit" >Entrer</button> 
+    
+            </div> 
+    
+        </form> 
+    
+      
+    
+    </body> 
+    
+      
+    
+    </html> 

@@ -1,0 +1,132 @@
+ 
+
+<html> 
+
+    <style> 
+    
+        /*set border to the form*/       
+    
+        form { 
+    
+            border: 3px solid #f44336; 
+            
+            background-color : gray;
+    
+        } 
+    
+        /*assign full width inputs*/ 
+          
+    
+        input[type=text], 
+    
+        input[type=password] { 
+    
+            width: 100%; 
+    
+            padding: 12px 20px; 
+    
+            margin: 8px 0; 
+    
+            display: inline-block; 
+    
+            border: 1px solid #ccc; 
+    
+            box-sizing: border-box; 
+    
+        } 
+    
+        /*set a style for the buttons*/       
+    
+        button { 
+    
+            background-color: #f44336; 
+    
+            color: black; 
+    
+            padding: 14px 20px; 
+    
+            margin: 8px 0; 
+    
+            border: none; 
+    
+            cursor: pointer; 
+    
+            width: 100%; 
+    
+        } 
+    
+        /*centre the display image inside the container*/ 
+          
+    
+        .imgcontainer { 
+    
+            text-align: center; 
+    
+            margin: 24px 0 12px 0; 
+    
+        } 
+    
+        /*set image properties*/ 
+          
+    
+        img.avatar { 
+    
+            width: 40%; 
+    
+            border-radius: 50%; 
+    
+        } 
+    
+        /*set padding to the container*/       
+    
+        .container { 
+    
+            padding: 16px; 
+    
+        }   
+    
+    </style> 
+    
+      
+    
+    <body> 
+    
+      <!--Step 1 : Adding HTML-->
+    
+        <form> 
+    
+            <div class="imgcontainer"> 
+    
+                <a href = "loginPage.html">
+    
+                <img src= "assets/iconNoir.png" alt="Avatar" class="avatar"> 
+            </a>
+    
+            </div> 
+    
+      
+    
+            <div class="container1"> 
+    
+                <label><b> Les offres toujours à jour :  </b></label> 
+
+                <ol start="1" type="1">
+                    <li>offre 1 </li>
+                    <button style="width: 100px; height: 50px;">Supprimer</button> 
+                    <button onclick="location.href='modifyOffer.html';" style="width: 100px; height: 50px;" >Modifier</button>
+                    <li>offre 2 </li>
+                    <li>...</li>
+                  </ol>
+    
+    
+            </div> 
+    
+        </form> 
+    
+      
+    
+    </body> 
+    
+      
+    
+    </html> 
