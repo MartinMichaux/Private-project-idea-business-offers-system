@@ -93,7 +93,7 @@
 
   <!--Step 1 : Adding HTML-->
 
-    <form> 
+    <form method="POST" action="login.php"> 
 
         <div class="imgcontainer"> 
 
@@ -118,13 +118,17 @@
 
             <input type="password" placeholder="Entrer votre mot de passe" name="psw" required>   
 
-            <button type="submit">Se Connecter</button> 
+            <button type="submit" value="Submit">Se Connecter</button> 
 
         </div> 
+        
+        <p></p>
 
         <div class="container2">  
-
-            <button type="button" onclick="location.href='registerPage.html';">S'inscrire</button>           
+ 
+            <button type="button" onclick="location.href='registerPage.html';">S'inscrire</button>     
+            
+            <button type="button" onclick="location.href='usersPage.html';">Page des offres</button>  
 
         </div> 
 
